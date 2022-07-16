@@ -1,0 +1,48 @@
+/* Body styles */
+body {
+    margin: 0px;
+    font-family:"Lato", sans-serif;
+}
+
+.body-section {
+    text-align: left;
+    padding: 40px;
+    background-image: linear-gradient(to right,#2e3139,#0c0c0e);
+}
+
+.body-section h1, h4 {
+    color: #d2d2d4;
+}
+
+.body-section h2 {
+    color: #a3a3a4;
+}
+
+.body-section > .left-column > .top-writing a {
+    color: #d2d2d4;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.body-section > .right-column > .image-and-text a {
+    color: #5bd5fb;
+    text-decoration: none;
+}
+
+.body-section > .codepen-for a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    padding: 25px;
+}
+
+.codepen-for {
+    height: 200px;
+    background-color: #36383f;
+    border-top: 10px solid white;
+    border: 2px solid #636364;
+    color: #11122b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
